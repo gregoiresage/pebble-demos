@@ -1,0 +1,16 @@
+{
+  "uuid": "4dfa9fb7-d01f-4380-97e4-5b44817a4b6d",
+  "shortName": "Focus Demo",
+  "longName": "Focus Handler Demo",
+  "companyName": "Pebble Technology",
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

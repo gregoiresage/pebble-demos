@@ -1,0 +1,118 @@
+{
+    "overlays" : 
+    [
+        {
+            "name": "font_browser",
+            "files" : ["app_font_browser.c"]
+        },
+        {
+            "name": "font_viewer",
+            "files" : ["app_font_viewer.c"]
+        },
+        {
+            "name": "mockup_helpe",
+            "files" : ["app_mockup_helper.c"]
+        },
+        {
+            "name": "accel_discs",
+            "files" : ["feature_accel_discs.c"]
+        },
+        {
+            "name": "logging",
+            "files" : ["feature_app_logging.c"]
+        },
+        {
+            "name": "clock_mode",
+            "files" : ["feature_clock_mode.c"]
+        },
+        {
+            "name": "custom_font",
+            "files" : ["feature_custom_font.c"]
+        },
+        {
+            "name": "draw_bitmap",
+            "files" : ["feature_draw_bitmap.c"]
+        },
+        {
+            "name": "draw_bitmap_",
+            "files" : ["feature_draw_bitmap_composite.c"]
+        },
+        {
+            "name": "focus_handle",
+            "files" : ["feature_focus_handler.c"]
+        },
+        {
+            "name": "gpath",
+            "files" : ["feature_gpath.c"]
+        },
+        {
+            "name": "image",
+            "files" : ["feature_image.c"]
+        },
+        {
+            "name": "image_transp",
+            "files" : ["feature_image_transparent.c"]
+        },
+        {
+            "name": "inverter_lay",
+            "files" : ["feature_inverter_layer.c"]
+        },
+        {
+            "name": "layer_data",
+            "files" : ["feature_layer_data.c"]
+        },
+        {
+            "name": "menu_layer",
+            "files" : ["feature_menu_layer.c"]
+        },
+        {
+            "name": "persist_coun",
+            "files" : ["feature_persist_counter.c"]
+        },
+        {
+            "name": "property_ani",
+            "files" : ["feature_property_animation.c"]
+        },
+        {
+            "name": "scroll_layer",
+            "files" : ["feature_scroll_layer.c"]
+        },
+        {
+            "name": "simple_menu_",
+            "files" : ["feature_simple_menu_layer.c"]
+        },
+        {
+            "name": "stdlib",
+            "files" : ["feature_stdlib.c"]
+        },
+        {
+            "name": "text_alignm",
+            "files" : ["feature_text_alignment.c"]
+        },
+        {
+            "name": "text_draw",
+            "files" : ["feature_text_draw.c"]
+        },
+        {
+            "name": "timer",
+            "files" : ["feature_timer.c"]
+        },
+        {
+            "name": "timer_anima",
+            "files" : ["feature_timer_animation.c"]
+        },
+        {
+            "name": "vibe",
+            "files" : ["feature_vibe.c"]
+        },
+        {
+            "name": "vibe_custom",
+            "files" : ["feature_vibe_custom.c"]
+        },
+        {
+            "name": "arcade",
+            "files" : ["pebble_arcade.c","entry.c","game.c","score.c"]
+        }
+        
+    ]
+}

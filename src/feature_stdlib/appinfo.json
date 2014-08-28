@@ -1,0 +1,14 @@
+{
+  "uuid": "165dce7b-2f46-4339-bdc2-b06422f4df23",
+  "shortName": "Stdlib Demo",
+  "longName": "Stdlib Demo",
+  "companyName": "Pebble Technology",
+  "versionLabel": "2.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {},
+  "resources": {
+    "media": []
+  }
+}

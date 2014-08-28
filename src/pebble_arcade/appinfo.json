@@ -1,0 +1,16 @@
+{
+  "uuid": "5189f423-7b0f-4b3b-bdb9-bdfe4564c959",
+  "shortName": "Pebble Arcade",
+  "longName": "Pebble Arcade",
+  "companyName": "AAA",
+  "versionLabel": "1.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}

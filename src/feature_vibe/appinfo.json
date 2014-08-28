@@ -1,0 +1,14 @@
+{
+  "uuid": "4f969153-f36e-470a-ac75-60f0c090ddbb",
+  "shortName": "Vibe Demo",
+  "longName": "Vibe Demo",
+  "companyName": "Pebble Technology",
+  "versionLabel": "2.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {},
+  "resources": {
+    "media": []
+  }
+}
