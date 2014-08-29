@@ -5,6 +5,9 @@
 #define DEMO_NUM_MENU_SECTIONS 1
 #define DEMO_NUM_MENU_ITEMS 41
 
+#define NUM_APP_PKEY 1
+#define NUM_APP_DEFAULT 0
+
 static Window *window;
 
 static SimpleMenuLayer *simple_menu_layer;
@@ -12,18 +15,18 @@ static SimpleMenuSection menu_sections[DEMO_NUM_MENU_SECTIONS];
 static SimpleMenuItem first_menu_items[DEMO_NUM_MENU_ITEMS];
 
 // last loaded app
-static int prevIndex = -1;
+static int num_app = -1;
 
 // You can capture when the user selects a menu icon with a menu item select callback
 static void menu_select_callback(int index, void *ctx) {
-  if(prevIndex != -1){
-    appConfig[prevIndex].deinit();
+  if(num_app != -1){
+    appConfig[num_app].deinit();
   }
 
   int res = overlay_load(index);
   if(res > 0){
     appConfig[index].init();
-    prevIndex = index;
+    num_app = index;
   }
 }
 
@@ -46,6 +49,9 @@ static void window_load(Window *window) {
   GRect bounds = layer_get_frame(window_layer);
   simple_menu_layer = simple_menu_layer_create(bounds, window, menu_sections, DEMO_NUM_MENU_SECTIONS, NULL);
   layer_add_child(window_layer, simple_menu_layer_get_layer(simple_menu_layer));
+
+  int last_index = persist_exists(NUM_APP_PKEY) ? persist_read_int(NUM_APP_PKEY) : NUM_APP_DEFAULT;
+  simple_menu_layer_set_selected_index(simple_menu_layer, last_index, true);
 }
 
 static void window_unload(Window *window) {
@@ -67,7 +73,9 @@ int main(void) {
 
   window_destroy(window);
 
-  if(prevIndex != -1){
-    appConfig[prevIndex].deinit();
+  if(num_app != -1){
+    appConfig[num_app].deinit();
   }
+
+  persist_write_int(NUM_APP_PKEY, num_app);
 }
