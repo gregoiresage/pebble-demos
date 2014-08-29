@@ -3,7 +3,7 @@
 #include "overlord.h"
 
 #define DEMO_NUM_MENU_SECTIONS 1
-#define DEMO_NUM_MENU_ITEMS 28
+#define DEMO_NUM_MENU_ITEMS 41
 
 static Window *window;
 
@@ -60,6 +60,7 @@ int main(void) {
     .unload = window_unload,
   });
 
+  window_set_fullscreen(window, true);
   window_stack_push(window, true);
 
   app_event_loop();

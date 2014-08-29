@@ -2,117 +2,168 @@
     "overlays" : 
     [
         {
-            "name": "font_browser",
+            "name": "app_font_browser",
             "files" : ["app_font_browser.c"]
         },
         {
-            "name": "font_viewer",
+            "name": "app_font_viewer",
             "files" : ["app_font_viewer.c"]
         },
         {
-            "name": "mockup_helpe",
+            "name": "app_mockup_helper",
             "files" : ["app_mockup_helper.c"]
         },
         {
-            "name": "accel_discs",
+            "name": "feature_accel_discs",
             "files" : ["feature_accel_discs.c"]
         },
         {
-            "name": "logging",
+            "name": "feature_app_logging",
             "files" : ["feature_app_logging.c"]
         },
         {
-            "name": "clock_mode",
+            "name": "feature_clock_mode",
             "files" : ["feature_clock_mode.c"]
         },
         {
-            "name": "custom_font",
+            "name": "feature_custom_font",
             "files" : ["feature_custom_font.c"]
         },
         {
-            "name": "draw_bitmap",
+            "name": "feature_draw_bitmap",
             "files" : ["feature_draw_bitmap.c"]
         },
         {
-            "name": "draw_bitmap_",
+            "name": "feature_draw_bitmap_composite",
             "files" : ["feature_draw_bitmap_composite.c"]
         },
         {
-            "name": "focus_handle",
+            "name": "feature_focus_handler",
             "files" : ["feature_focus_handler.c"]
         },
         {
-            "name": "gpath",
+            "name": "feature_gpath",
             "files" : ["feature_gpath.c"]
         },
         {
-            "name": "image",
+            "name": "feature_image",
             "files" : ["feature_image.c"]
         },
         {
-            "name": "image_transp",
+            "name": "feature_image_transparent",
             "files" : ["feature_image_transparent.c"]
         },
         {
-            "name": "inverter_lay",
+            "name": "feature_inverter_layer",
             "files" : ["feature_inverter_layer.c"]
         },
         {
-            "name": "layer_data",
+            "name": "feature_layer_data",
             "files" : ["feature_layer_data.c"]
         },
         {
-            "name": "menu_layer",
+            "name": "feature_menu_layer",
             "files" : ["feature_menu_layer.c"]
         },
         {
-            "name": "persist_coun",
+            "name": "feature_persist_counter",
             "files" : ["feature_persist_counter.c"]
         },
         {
-            "name": "property_ani",
+            "name": "feature_property_animation",
             "files" : ["feature_property_animation.c"]
         },
         {
-            "name": "scroll_layer",
+            "name": "feature_scroll_layer",
             "files" : ["feature_scroll_layer.c"]
         },
         {
-            "name": "simple_menu_",
+            "name": "feature_simple_menu_layer",
             "files" : ["feature_simple_menu_layer.c"]
         },
         {
-            "name": "stdlib",
+            "name": "feature_stdlib",
             "files" : ["feature_stdlib.c"]
         },
         {
-            "name": "text_alignm",
+            "name": "feature_text_alignment",
             "files" : ["feature_text_alignment.c"]
         },
         {
-            "name": "text_draw",
+            "name": "feature_text_draw",
             "files" : ["feature_text_draw.c"]
         },
         {
-            "name": "timer",
+            "name": "feature_timer",
             "files" : ["feature_timer.c"]
         },
         {
-            "name": "timer_anima",
+            "name": "feature_timer_animation",
             "files" : ["feature_timer_animation.c"]
         },
         {
-            "name": "vibe",
+            "name": "feature_vibe",
             "files" : ["feature_vibe.c"]
         },
         {
-            "name": "vibe_custom",
+            "name": "feature_vibe_custom",
             "files" : ["feature_vibe_custom.c"]
         },
         {
-            "name": "arcade",
+            "name": "pebble_arcade",
             "files" : ["pebble_arcade.c","entry.c","game.c","score.c"]
+        },
+        {
+            "name": "big_time",
+            "files" : ["big_time.c"]
+        },
+        {
+            "name": "classio",
+            "files" : ["classio.c"]
+        },
+        {
+            "name": "classio_battery_connection",
+            "files" : ["classio-battery-connection.c"]
+        },
+        {
+            "name": "drop_zone",
+            "files" : ["drop_zone.c"]
+        },
+        {
+            "name": "fuzzy_time",
+            "files" : ["fuzzy_time.c","num2words.c"]
+        },
+        {
+            "name": "just_a_bit",
+            "files" : ["just_a_bit.c"]
+        },
+        {
+            "name": "ninety_one_dub",
+            "files" : ["ninety_one_dub.c"]
+        },
+        {
+            "name": "onthebutton",
+            "files" : ["onthebutton.c"]
+        },
+        {
+            "name": "rumbletime",
+            "files" : ["rumbletime.c"]
+        },
+        {
+            "name": "segment_six",
+            "files" : ["segment_six.c"]
+        },
+        {
+            "name": "simple_analog",
+            "files" : ["simple_analog.c"]
+        },
+        {
+            "name": "simplicity",
+            "files" : ["simplicity.c"]
+        },
+        {
+            "name": "tic_tock_toe",
+            "files" : ["tic_tock_toe.c"]
         }
-        
     ]
 }
