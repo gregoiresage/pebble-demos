@@ -110,4 +110,6 @@ void feature_stdlib_init(){
 void feature_stdlib_deinit(){
   layer_destroy(layer);
   window_destroy(window);
+
+  app_timer_cancel(timer);
 }
