@@ -3,9 +3,9 @@
 
 #include "pebble.h"
 #include "overlord.h"
-#include "pebble_app_info.h"
+#include "pebble_process_info.h"
 
-extern const PebbleAppInfo __pbl_app_info;
+extern const PebbleProcessInfo __pbl_app_info;
 extern unsigned long _ovly_table[][2];
 
 uint8_t * OVL_P = NULL;  //pointer to start of overlay area
