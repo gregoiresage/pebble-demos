@@ -300,6 +300,11 @@
         "type": "png",
         "name": "IMAGE_NOD_NUM_9",
         "file": "images/ninety_one_dub/num_9.png"
+      },
+      {
+          "type": "png",
+          "name": "CROSS_HAIR_LARGE",
+          "file": "images/compass/cross_hair_large.png"
       }
 
 

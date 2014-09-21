@@ -3,7 +3,7 @@
 #include "overlord.h"
 
 #define DEMO_NUM_MENU_SECTIONS 2
-#define DEMO_NUM_APPS_ITEMS 28
+#define DEMO_NUM_APPS_ITEMS 29
 #define DEMO_NUM_FACES_ITEMS 13
 
 #define NUM_APP_PKEY 1

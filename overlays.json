@@ -114,6 +114,10 @@
             "files" : ["pebble_arcade.c","entry.c","game.c","score.c"]
         },
         {
+            "name": "compass",
+            "files" : ["compass.c", "compass_calibration_window.c", "compass_window.c", "data_provider.c", "inverted_cross_hair_layer.c", "ticks_layer.c"]
+        },
+        {
             "name": "big_time",
             "files" : ["big_time.c"]
         },

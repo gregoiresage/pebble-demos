@@ -35,6 +35,7 @@ ENTRYPOINTS(feature_timer_animation)
 ENTRYPOINTS(feature_vibe)
 ENTRYPOINTS(feature_vibe_custom)
 ENTRYPOINTS(pebble_arcade)
+ENTRYPOINTS(compass)
 
 ENTRYPOINTS(big_time)
 ENTRYPOINTS(classio)
@@ -81,6 +82,7 @@ static app_t appConfig[] = {
 	ENTRYPOINTROW(feature_vibe),
 	ENTRYPOINTROW(feature_vibe_custom),
 	ENTRYPOINTROW(pebble_arcade),
+	ENTRYPOINTROW(compass),
 
 	ENTRYPOINTROW(big_time),
 	ENTRYPOINTROW(classio),
@@ -129,6 +131,7 @@ static char* appNames[] = {
 	"Vibe",
 	"Vibe Custom",
 	"Pebble Arcade",
+	"Compass",
 
 	"Big Time",
 	"Classio",
